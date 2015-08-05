@@ -1,0 +1,15 @@
+{
+  "version": "1.1.1",
+  "name": "cars",
+  "description":"cars",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/kicon.png",
+    "512": "/nicon.png"
+  },
+  "developer": {
+    "name": ""
+  },
+
+  "default_locate": "en"
+}
