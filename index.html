@@ -14,22 +14,43 @@
 window.onload = function() {
     var oFrame = document.getElementById("c2");
     oFrame.contentWindow.document.onclick = function() {
-        window.location = "tc.html";
+        window.location = "http://creepypastas.github.io/scape-road/tc.html";
     };
 
      var oFrame3 = document.getElementById("c3");
     oFrame3.contentWindow.document.onclick = function() {
-        window.location = "home/plus/3c.html";
+        window.location = "http://creepypastas.github.io/scape-road/home/plus/3c.html";
     };
 
      var oFrame4 = document.getElementById("c4");
     oFrame4.contentWindow.document.onclick = function() {
-         window.location = "home/plus/4c.html";
+         window.location = "http://creepypastas.github.io/scape-road/home/plus/4c.html";
     };
 };
 
 
 </script>
+<style>
+.fltnt{
+  max-width:760px;
+	position:fixed;
+	bottom:0px;
+	margin:auto;
+	padding:0px;
+	min-width: 320px;
+}
+@media screen and (max-width: 672px){
+	.fltnt{
+  	max-width:760px;
+		height: 60px;
+		position:fixed;
+		bottom:0px;
+		margin:auto;
+		padding:0px;
+		min-width: 320px;
+	}
+}
+</style>
 </head>
 <body bgcolor="#040A11" color="#ffffff">
 	<table>
@@ -38,7 +59,7 @@ window.onload = function() {
 		<tr><td><iframe id="c4" src="home/4cl.html" frameborder="0" scrolling="no" seamless="seamless" ></iframe></td></tr>
 	</table>
 
-	<footer style=" position:fixed;    bottom:0px;    margin:0px;    padding:0px;    width: 100%;">
+	<footer class="fltnt">
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- sroad -->
 		<ins class="adsbygoogle"
